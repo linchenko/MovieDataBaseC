@@ -67,18 +67,10 @@ class LRLMovieTableViewController: UITableViewController, UISearchBarDelegate, S
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let movie = searchBarOutlet.text else {return}
         fetchMovie(movie: movie)
+        searchBarOutlet.resignFirstResponder()
         
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }
