@@ -14,6 +14,7 @@
 @property (nonatomic, copy) NSString *releaseDate;
 @property (nonatomic, copy) NSString *movieDescription;
 @property (nonatomic, copy) NSString *imagePath;
+@property (nonatomic) NSNumber* identification;
 
 -(instancetype)initWithDictionary: (NSDictionary*)movieDictionary;
 

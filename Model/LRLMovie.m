@@ -18,6 +18,7 @@
         _releaseDate = movieDictionary[@"release_date"];
         _movieDescription = movieDictionary[@"overview"];
         _imagePath = movieDictionary[@"poster_path"];
+        _identification = movieDictionary[@"id"];
         
     }
     return self;

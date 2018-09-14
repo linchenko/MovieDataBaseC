@@ -10,29 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.596688"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "+fetchImage:withBlock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.596783"
+            timestampString = "558643640.695454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
             endingLineNumber = "53"
-            landmarkName = "+fetchImage:withBlock:"
-            landmarkType = "7">
+            landmarkName = "LRLMovieClient"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.596858"
+            timestampString = "558643640.695642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -58,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.596923"
+            timestampString = "558643640.69574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -74,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.596987"
+            timestampString = "558643640.695838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -90,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.597046"
+            timestampString = "558643640.69591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -106,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.597106"
+            timestampString = "558643640.69599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -122,12 +106,12 @@
                   moduleName = "MovieDataBaseC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/levilinchenko/Documents/iOS21/MovieDataBaseC/Client/LRLMovieClient.m"
-                  timestampString = "558640208.786798"
+                  timestampString = "558641451.108858"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
                   endingLineNumber = "57"
-                  offsetFromSymbolStart = "206">
+                  offsetFromSymbolStart = "227">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -137,7 +121,7 @@
                   moduleName = "MovieDataBaseC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/levilinchenko/Documents/iOS21/MovieDataBaseC/Client/LRLMovieClient.m"
-                  timestampString = "558640208.7898951"
+                  timestampString = "558641451.112088"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -152,7 +136,7 @@
                   moduleName = "MovieDataBaseC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/levilinchenko/Documents/iOS21/MovieDataBaseC/Client/LRLMovieClient.m"
-                  timestampString = "558640208.793522"
+                  timestampString = "558641451.115467"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
@@ -165,11 +149,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640208.597159"
+            timestampString = "558643640.696088"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -178,7 +162,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "+[LRLMovieClient fetchImage:withBlock:]"
@@ -193,7 +177,7 @@
                   offsetFromSymbolStart = "206">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__39+[LRLMovieClient fetchImage:withBlock:]_block_invoke"
@@ -208,7 +192,7 @@
                   offsetFromSymbolStart = "109">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__destroy_helper_block_.65"
@@ -232,7 +216,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640231.474981"
+            timestampString = "558643640.696153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -248,7 +232,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640231.909498"
+            timestampString = "558643640.69622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -264,7 +248,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640232.436056"
+            timestampString = "558643640.6963511"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -280,7 +264,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640232.912081"
+            timestampString = "558643640.696558"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -296,7 +280,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640233.445213"
+            timestampString = "558643640.696762"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -312,7 +296,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640234.018544"
+            timestampString = "558643640.696852"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -328,7 +312,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640234.502772"
+            timestampString = "558643640.696914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -344,7 +328,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640235.382495"
+            timestampString = "558643640.696968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -360,7 +344,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640235.8591141"
+            timestampString = "558643640.697024"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
@@ -376,7 +360,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640236.528953"
+            timestampString = "558643640.697077"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -392,7 +376,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640237.303991"
+            timestampString = "558643640.69713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -408,7 +392,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client/LRLMovieClient.m"
-            timestampString = "558640240.1538219"
+            timestampString = "558643640.697184"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"

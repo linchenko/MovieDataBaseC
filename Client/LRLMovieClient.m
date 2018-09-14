@@ -53,7 +53,7 @@
 {
     NSURL * baseURL = [NSURL URLWithString:@"https://image.tmdb.org/t/p/w500"];
     NSURL * url = [baseURL URLByAppendingPathComponent:movie.imagePath];
-//    NSLog(@"%@", url);
+    NSLog(@"%@", url);
     [[[NSURLSession sharedSession]dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error){
             NSLog(@"Error in %s, %@, %@", __PRETTY_FUNCTION__, error, error.localizedDescription);

@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import SafariServices
 
 
-class LRLMovieTableViewController: UITableViewController, UISearchBarDelegate {
+class LRLMovieTableViewController: UITableViewController, UISearchBarDelegate, SFSafariViewControllerDelegate {
     
     
     @IBOutlet weak var searchBarOutlet: UISearchBar!
@@ -17,7 +18,7 @@ class LRLMovieTableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBarOutlet.delegate = self
-        fetchMovie(movie: "panda")
+        fetchMovie(movie: "Jack reacher")
         
     }
     
@@ -31,7 +32,16 @@ class LRLMovieTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
     
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let movies = movies else {return}
+        let movie = movies[indexPath.row]
+        let parcedTitle = movie.title.replacingOccurrences(of: " ", with: "-")
+        guard let url: URL = URL(string: "https://www.themoviedb.org/movie/\(movie.identification!)-\(parcedTitle)") else {return}
+        let safari = SFSafariViewController(url: url)
+        safari.delegate = self
+        present(safari, animated: true, completion: nil)
+        print(url)
+    }
     
     
     // MARK: - Table view data source
